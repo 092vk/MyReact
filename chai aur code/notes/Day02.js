@@ -13,13 +13,15 @@
 
 
 // ****why vite*****
-// vite is a bundler - simply we use them becuz it bundles all the technology we need , so instead of installing the tech one by one , like tailwind and react separartely , we can use vite to install them in a one go , they have other functions as well by which it helps in building the project efficiently and fastly 
+// vite is a bundler - simply we use them becuz it bundles all the technology we need , so instead of installing the tech one by one , like tailwind and react separartely , we can use vite to install them in a one go ,they have other functions as well by which it helps in building the project efficiently and fastly 
 
 
 
 // how??
 // npm create vite@latest
 // select the options 
-// npm install
+// npm install -->install all the dependencies , also if you are copying a projec , after running this command all the dependencies which are missing from the computer will get installed automatically 
+
+
 // npm run dev
 

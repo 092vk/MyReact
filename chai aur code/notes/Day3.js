@@ -6,5 +6,3 @@
 
 // 4. React create its own virtual dom , separate from the browser dom , then it matches the both dom and then makes changes , this is done so that we only change componenets which we want to 
 
-
-
