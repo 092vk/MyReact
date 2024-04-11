@@ -27,3 +27,33 @@
 
 
 
+
+
+******************************************************************************************************
+
+#Reconcilliation : 
+--> the algorithm React uses to diff one tree with another to determine which parts need to be changed.
+
+#React Fibre :
+React Fibre uses reconcilliation algos along with other algos like scheduling , priorities , etc to do rendering , 
+
+
+--> the problem : 
+1.Whenever we make changes in a website or we are getting data from a backend , we dont need to render them immediately  , actually making changes immediately clogs the UI and causes frame drops resulting in degradation of use experience 
+
+2.Different types of Updates have different Priorities , for eg : animation update needs to be completed more quickly than , say an update from a data store 
+
+3.All of this is done automatically by react 
+
+
+
+--> SOLUTIONS React Offer Scheduling of Updation of DOM : 
+1.pause the current updation and come back later 
+2.assign priority to different types of work 
+3.resuse previously completed work
+4.abort work if it's no longer needed 
+
+
+
+--> while updating a element in react we dont have to unlike native js(targeting elements where changes will be shown , changing the data and then again making sure the changed data is shown ) think about how and where the elements change is being implemented , react does all the work for us automatically 
+
