@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.counter{
+    background-color: black;
+    color: azure;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 6vw;
+}
+
+.Add,.Remove{
+    background: orange;
+    display: block;
+    position:relative;
+    top: 20vh;
+    right: 40vw;
+    padding: 5px;
+    margin: 5px;
+    font-size: 1.8vw;
+    color: blue;
+    border-radius: 10px;
+}

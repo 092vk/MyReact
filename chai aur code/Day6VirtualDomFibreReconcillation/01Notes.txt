@@ -1,0 +1,29 @@
+--> DOM : document object model : a tree like structure in which all the componenst of a webpage are structured .
+
+--> in native js , when we change any element the whole DOM gets repainted while in react there is a concept of virtual dom 
+
+--> What is a Virtual DOM :
+-- it is a copy of actual dom that exixts in browser, it is basically a js object tree , a structure that mirrors the actual dom 
+
+
+--> whats the problem and how virtual dom solves it 
+----- PROBLEMS :
+1.Inefficient DOM updation
+2.Large time in updation of dom when freqent changes are made 
+3.Large nuber of repaints 
+4.cross browser compatibility 
+
+
+---> How virtual dom solves the problem and which ones 
+
+1. So react insted of changing the real dom on each request , it changes the virtual dom 
+2. virtual dom is just a copy of original dom, updating the virtual dom is a light weight operation , ,recat then compares the virtaul dom with the previous verison to determine the minimal set of changes needed to update the actual DOM 
+
+3.REact also batch sevral updates into one , and then computes the most efficient way to implemnt the changes 
+
+4. react also uses reconciliation which helps it to compute minimal changes to make 
+
+5.react also helps in cross-browser compatibility 
+
+
+
